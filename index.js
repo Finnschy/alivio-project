@@ -6,10 +6,6 @@ app.get('/', (req, res) => {
     res.sendFile("./views/index.html", { root: __dirname })
 })
 
-app.get('/why', (req, res) => {
-    res.sendFile("./views/why.html", { root: __dirname })
-})
-
 app.get("/solutions", (req, res) => {
     res.sendFile("./views/solutions.html", { root: __dirname })
 })

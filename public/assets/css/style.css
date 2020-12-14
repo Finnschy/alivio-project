@@ -4,7 +4,7 @@
     --main-font: Georgia, 'Times New Roman', Times, serif;;
     --second-font: 'Lato', sans-serif;
     --main-color: #01996D;
-    --main-opa-color: #01996e20;
+    --main-opa-color: #01996e30;
     --copy-color: #484848;
 }
 
@@ -91,19 +91,102 @@ header div {
 }
 
 
+.sectHow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0; 
+}
+
+.sectHow p {
+    width: 25%;
+}
+
+.sectHow h5 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.sectHow h2 {
+    font-family: var(--main-font);
+    color: var(--main-color);
+    font-size: 3.125rem;
+    margin-right: 10rem;
+}
+
+
+.sectSteps{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sectSteps figure h2, .sectSteps figure h4 {
+    font-family: var(--main-font);
+}
+
+
+.sectSteps figure h2 {
+    color: var(--main-opa-color);
+    font-size: 9.375rem;
+}
 
 
 
+.sectSteps figure h4 {
+    font-size: 1.875rem;
+    margin: -3.7rem 0 2rem 0;
 
+}
 
+.sectSteps figure {
+    width: 24.5rem;
+    margin-bottom: 5rem;
+}
 
+.sectSteps figure:nth-of-type(2) {
+    margin-top: 15rem;
+}
 
+figcaption {
+    width: 100%;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
 
+.solutions, .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0;
+}
 
+.solutions h2 , .products h2{
+    font-family: var(--main-font);
+    font-size: 3.125rem;
+}
 
+.products h2 {
+    color: var(--main-color);
+}
 
+.solutions p , .products p{
+    margin: 2rem 0;
+}
 
+.solutions img{
+    margin-left: 5rem;
+}
 
+.products img {
+    margin-right: 5rem;
+}
+
+#error404 {
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0;
+}
 
 footer {
     background: var(--main-color);
@@ -120,4 +203,3 @@ footer h3, footer ul li a {
     padding-bottom: 3rem;
     margin-left: 15rem;
 }
-
